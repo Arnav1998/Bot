@@ -1,0 +1,35 @@
+package gridControllers;
+
+import java.net.MalformedURLException;
+
+import org.openqa.selenium.WebDriver;
+
+import grid.GridGenerator;
+
+public class SupremeController {
+
+	private static WebDriver driver;
+	private static GridGenerator grid;
+	
+	public static void main(String[] args) throws MalformedURLException {
+		
+		grid = new GridGenerator("firefox",""); //arg1->"browserName", arg2->"nodeURL"
+		
+		openBrowserWindows(3);
+
+	}
+	
+	private static void openBrowserWindows(int numberOfWindows) {
+		
+		for (int i = 0; i < numberOfWindows; i++) {
+			
+			driver = grid.getDriver();
+			driver.manage().window().maximize();
+			driver.get("https://www.gmail.com");
+			
+		}
+		
+		
+	}
+
+}
