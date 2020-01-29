@@ -1,0 +1,17 @@
+package runners;
+
+import java.net.MalformedURLException;
+
+import gridControllers.SupremeController;
+
+public class Runner {
+
+	public static void main(String[] args) throws MalformedURLException {
+		
+		for (int i = 0; i < 3; i++) {
+			new SupremeController().begin();
+		}
+
+	}
+
+}

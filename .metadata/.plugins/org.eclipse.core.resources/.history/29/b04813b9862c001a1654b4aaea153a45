@@ -1,0 +1,34 @@
+package data;
+
+public class PersonGenerator {
+	
+	private static int id = 0;
+	
+	public Person getPerson() {
+		
+		id++;
+		
+		if (id == 1) {
+			//generate as person and return it;
+			return new Person("","","","","","","","","","","","","","");
+		} else if (id == 2) {
+			
+		} else if (id == 3) {
+			
+		} else if (id == 4) {
+			
+		} else if (id == 5) {
+			
+		} else if (id == 6) {
+			
+		} else {
+			id = 0;
+			getPerson();
+		}
+		
+		
+		return null;
+		
+	}
+
+}

@@ -1,0 +1,34 @@
+package data;
+
+public class PersonGenerator {
+	
+	private static int id = 0;
+	
+	public Person getPerson() {
+		
+		id++;
+		
+		if (id == 1) {
+			//generate as person and return it;
+			return new Person("Jim","Carry","jimcarry@gmail.com","7142161111","Main St.","1234","Anaheim","California","92807","USA","4477432155567889","02","2020","398");
+		} else if (id == 2) {
+			
+		} else if (id == 3) {
+			
+		} else if (id == 4) {
+			
+		} else if (id == 5) {
+			
+		} else if (id == 6) {
+			
+		} else {
+			id = 0;
+			getPerson();
+		}
+		
+		
+		return null;
+		
+	}
+
+}

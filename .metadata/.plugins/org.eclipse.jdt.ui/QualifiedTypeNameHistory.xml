@@ -11,4 +11,9 @@
     <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By.ByXPath"/>
+    <fullyQualifiedTypeName name="gridControllers.SupremeController"/>
+    <fullyQualifiedTypeName name="data.PersonGenerator"/>
+    <fullyQualifiedTypeName name="data.Person"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.JavascriptExecutor"/>
 </qualifiedTypeNameHistroy>
